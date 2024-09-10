@@ -1,4 +1,4 @@
-package com.imdvlpr.portfolio.my_portfolio
+package com.imdvlpr.portfolio
 
 import io.flutter.embedding.android.FlutterActivity
 
