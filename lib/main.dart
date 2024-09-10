@@ -1,13 +1,17 @@
 import 'package:MyPortfolio/screen/splash.dart';
 import 'package:MyPortfolio/utils/constants.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
-/**
- *  Created by Imdvlpr_
- */
+import 'utils/firebase_options.dart';
+
+///  Created by Imdvlpr_
 
 void main() {
+  Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
