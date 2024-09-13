@@ -2,6 +2,7 @@ import 'package:MyPortfolio/utils/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 import 'utils/firebase_options.dart';
 
@@ -11,6 +12,7 @@ void main() {
   Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  setPathUrlStrategy();
   runApp(const MyApp());
 }
 
