@@ -77,27 +77,8 @@ class _CustomAppBarState extends State<CustomAppBar> {
                                 ),
                               ),
                               if (index != headerMenu.length - 1)
-                                const SizedBox(width: 15),
+                                const SizedBox(width: 25),
                             ],
-                            const SizedBox(width: 15),
-                            InkWell(
-                              onTap: widget.onLoginTap,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  color: mainColor,
-                                  borderRadius: BorderRadius.circular(10),
-                                  border: Border.all(
-                                    color: purple,
-                                    width: 1,
-                                  ),
-                                ),
-                                padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 15),
-                                child: Text(
-                                  'Login',
-                                  style: medium16White(),
-                                ),
-                              ),
-                            ),
                           ],
                         ),
                       )
