@@ -20,6 +20,14 @@ TextStyle regular16White() {
   );
 }
 
+TextStyle semiBold16White() {
+  return GoogleFonts.poppins().copyWith(
+      color: white,
+      fontSize: 16,
+      fontWeight: FontWeight.w600
+  );
+}
+
 TextStyle semiBold32White() {
   return GoogleFonts.poppins().copyWith(
     color: white,
@@ -33,5 +41,13 @@ TextStyle semiBold32Purple() {
       color: purple,
       fontSize: 32,
       fontWeight: FontWeight.w600
+  );
+}
+
+TextStyle medium16White() {
+  return GoogleFonts.poppins().copyWith(
+      color: white,
+      fontSize: 16,
+      fontWeight: FontWeight.w500
   );
 }
