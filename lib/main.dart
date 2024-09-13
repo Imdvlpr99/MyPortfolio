@@ -1,4 +1,5 @@
 import 'package:MyPortfolio/utils/constants.dart';
+import 'package:MyPortfolio/utils/page_routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
+      routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
       builder: (context, child) => ResponsiveBreakpoints.builder(
         child: child!,
@@ -35,7 +37,6 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: purple),
         useMaterial3: true,
       ),
-      home: const Splash(),
     );
   }
 }
