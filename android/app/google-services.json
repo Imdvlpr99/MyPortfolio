@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1028786253478",
+    "project_id": "portfolio-43a74",
+    "storage_bucket": "portfolio-43a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028786253478:android:071f5117fe4b5421554e67",
+        "android_client_info": {
+          "package_name": "com.imdvlpr.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABXjjxtjv5v_YUgDoO_n9YFYipSS3VvwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
