@@ -1,5 +1,5 @@
 import 'package:MyPortfolio/ui/about/about_base.dart';
-import 'package:MyPortfolio/ui/auth/auth_base.dart';
+import 'package:MyPortfolio/ui/auth/login.dart';
 import 'package:MyPortfolio/ui/base.dart';
 import 'package:MyPortfolio/ui/home/home_base.dart';
 import 'package:MyPortfolio/ui/works/works_base.dart';
@@ -38,7 +38,7 @@ GoRouter appRouter = GoRouter(
       ),
       GoRoute(
           path: '/login',
-          builder: (context, state) => const AuthBase()
+          builder: (context, state) => const Login()
       )
     ],
 );
